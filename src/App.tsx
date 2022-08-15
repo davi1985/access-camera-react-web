@@ -33,9 +33,9 @@ export function App() {
       if (target.files.length !== 0) {
         const file = target.files[0];
         const newUrl = URL.createObjectURL(file);
-        setSource(newUrl);
 
-        console.log(source);
+        console.log(newUrl);
+        setSource(newUrl);
       }
     }
   };
