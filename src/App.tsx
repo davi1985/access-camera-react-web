@@ -34,6 +34,8 @@ export function App() {
         const file = target.files[0];
         const newUrl = URL.createObjectURL(file);
         setSource(newUrl);
+
+        console.log(source);
       }
     }
   };
